@@ -1,0 +1,42 @@
+Tela do jogo
+	00 - criar fundo do jogo
+		00.1 - importar todas as sprites do background;
+		00.2 - ajustar resolução do jogo;
+		00.3 - arrume a biewport do jogo;
+		00.4 - montar o background;
+		
+	01 - criar jogador
+		01.1 - importar sprite;
+		01.2 - criar objeto;
+		01.3 - colocar player na room;
+		01.4 - fazer o player começar caindo;
+		01.5 - fazer ele voar;
+		01.6 - corrigir animação;
+		01.7 - corrigir colisão
+		
+	02 - criar obstaculo arvore
+		02.1 - importar sprite;
+		02.2 - criar objeto;
+		02.3 - fazer movimentação da arvore;
+		02.4 - criar colisão com o jogador;
+		02.5 - corrigir colisão;
+		
+	03 - morte do jogador
+		03.1 - parar o jogo todo, zerar as velociddes;
+		03.2 - fazer animação de morte do jogador;
+		03.3 - reiniciar o jogo;
+		03.4 - impedir que o jogador saia por cima ou por baixo;
+		
+	04 - criar o inimigo
+		04.1 - criar objeto;
+		04.2 - configurar inimigo
+		
+	05 - criar geração procedural do inimigo e obstaculos
+		05.1 - criar objeto
+		05.2 - configurar geração procedural
+	
+Tela inicial
+
+
+
+Tela da loja
