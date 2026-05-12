@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_creat_obstacle",
+  "%Name":"obj_pickup_fish",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_creat_obstacle",
+  "name":"obj_pickup_fish",
   "overriddenProperties":[],
   "parent":{
-    "name":"Creator",
-    "path":"folders/Objects/Gameplay/Control/Creator.yy",
+    "name":"Pickups",
+    "path":"folders/Objects/Gameplay/Pickups.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_pickup_fish",
+    "path":"sprites/spr_pickup_fish/spr_pickup_fish.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

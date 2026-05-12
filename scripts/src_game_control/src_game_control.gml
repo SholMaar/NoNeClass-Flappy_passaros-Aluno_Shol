@@ -1,5 +1,16 @@
+randomise();
+
 // variavel de morte do jogador
 global.player_death = false;
+// variavel de pontuação
+global.points = 0;
+// variavel de level
+global.level = 1;
+// quantidade de coletaveis pegos
+global.pickups = 0;
+
+// array de pontos para passar de vevel
+global.array_points_level = [200, 400, 600, 800, 1200, 1400, 1600, 1800, 2000];
 
 // função que controla a morte
 function end_game()
@@ -23,6 +34,10 @@ function end_game()
 		layer_hspeed("bg_04", 0);
 		layer_hspeed("bg_05", 0);
 	}
+	
+	// resetando pontos e level
+	global.points = 0;
+	global.level = 1;
 	
 	// iniciando alarme
 	alarm[0] = restart_game_time;

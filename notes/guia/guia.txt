@@ -34,7 +34,38 @@ Tela do jogo
 	05 - criar geração procedural do inimigo e obstaculos
 		05.1 - criar objeto
 		05.2 - configurar geração procedural
-	
+		
+	06 - criar sistema de pontuação
+		06.1 - criar objeto;
+		06.2 - criar variavel de pontuação;
+		06.3 - exibir pontuação;
+		06.4 - fazer sistema de aumentar pontos;
+		06.5 - zerar pontuação após morrer;
+		06.6 - arredondar pontuação;
+		06.7 - mudar fonte dos pontos;
+		
+	07 - sistema de level 
+		07.1 - criar uma variavel;
+		07.2 - criar objeto;
+		07.3 - desenhar o level na metade da viewport (H);
+		07.4 - importar sprites do level;
+		07.5 - desenhar com a sprite dos leveis;
+		07.6 - ganhar level conforme ganha pontos;
+		07.7 - resetar level quando morrer;
+		07.8 - usar array para fazer o sistema de level;
+		07.9 - desenhar quatos pontos necesarios para subir level;
+		
+	08 - criar coletavel
+		08.1 - importar sprite;
+		08.2 - criar objeto;
+		08.3 - criar variavel de total de coletavel pego;
+		08.4 - exibir quantidade de coletaveis pego;
+		08.5 - criar camada de coletavel;
+		08.6 - configurar coletavel;
+		08.7 - criar efeito de coleta;
+		08.8 - criar efeito de coleta;
+		08.9 - criar geração procedural;
+		
 Tela inicial
 
 
