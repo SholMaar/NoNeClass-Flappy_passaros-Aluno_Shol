@@ -7,7 +7,7 @@ global.points = 0;
 // variavel de level
 global.level = 1;
 // quantidade de coletaveis pegos
-global.pickups = 900;
+global.pickups = 0;
 //variavel de room
 global.room = rm_gameplay;
 // variavel de controle de transição

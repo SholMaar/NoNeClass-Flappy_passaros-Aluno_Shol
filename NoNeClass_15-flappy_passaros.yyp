@@ -59,7 +59,6 @@
   "name":"NoNeClass_15-flappy_passaros",
   "resources":[
     {"id":{"name":"fnt_points","path":"fonts/fnt_points/fnt_points.yy",},},
-    {"id":{"name":"guia","path":"notes/guia/guia.yy",},},
     {"id":{"name":"obj_button_fx","path":"objects/obj_button_fx/obj_button_fx.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_control_level","path":"objects/obj_control_level/obj_control_level.yy",},},
