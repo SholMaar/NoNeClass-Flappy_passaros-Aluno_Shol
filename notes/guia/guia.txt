@@ -81,6 +81,11 @@ Tela do jogo
 		11.1 - fade in;
 		11.2 - fade out;
 		
+	12 - criar Loja
+		12.1 - criar room;
+		12.2 - colocar botão de voltar para o menu;
+		12.3 - exibir itens na loja;
+		
 Tela inicial
 
 

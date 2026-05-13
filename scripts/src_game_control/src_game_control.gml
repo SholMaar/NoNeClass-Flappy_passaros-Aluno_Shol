@@ -7,14 +7,18 @@ global.points = 0;
 // variavel de level
 global.level = 1;
 // quantidade de coletaveis pegos
-global.pickups = 0;
+global.pickups = 900;
 //variavel de room
 global.room = rm_gameplay;
 // variavel de controle de transição
 global.on_transition = false;
+// variavel de sprite atual
+global.current_sprite = spr_blue_macaw;
 
 // array de pontos para passar de vevel
 global.array_points_level = [200, 400, 600, 800, 1200, 1400, 1600, 1800, 2000];
+// veridicar items comprados
+global.lock_items = [0, 1, 1];
 
 // função que controla a morte
 function end_game()

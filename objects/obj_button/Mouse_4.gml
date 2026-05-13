@@ -6,7 +6,7 @@ text_xscale = .5;
 text_yscale = .5;
 
 // mudando room
-global.room = rm_gameplay;
+global.room = room_button;
 // criando transição
 if (global.on_transition) exit;
 layer_sequence_create("transition", 0, 0, sq_fade_in);

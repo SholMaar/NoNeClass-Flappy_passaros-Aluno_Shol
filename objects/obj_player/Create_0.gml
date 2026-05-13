@@ -12,3 +12,6 @@ gravity = gravity_force; // aplicando velocidade
 
 //começando com minha animação parada
 image_speed = 0;
+
+// verificando minha sprite
+sprite_index = global.current_sprite;
