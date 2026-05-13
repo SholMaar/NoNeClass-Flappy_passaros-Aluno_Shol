@@ -14,6 +14,8 @@ global.room = rm_gameplay;
 global.on_transition = false;
 // variavel de sprite atual
 global.current_sprite = spr_blue_macaw;
+// efeitos ativos
+global.effetcs = true;
 
 // array de pontos para passar de vevel
 global.array_points_level = [200, 400, 600, 800, 1200, 1400, 1600, 1800, 2000];
@@ -56,4 +58,15 @@ function switch_room()
 function end_transition()
 {
 	global.on_transition = false;
+}
+
+function switch_effetcs ()
+{
+	layer_enable_fx("leaf", global.effetcs);
+	layer_enable_fx("bg_06", global.effetcs);
+	layer_enable_fx("bg_05", global.effetcs);
+	layer_enable_fx("bg_04", global.effetcs);
+	layer_enable_fx("bg_03", global.effetcs);
+	layer_enable_fx("bg_03", global.effetcs);
+	layer_enable_fx("pickup", global.effetcs);
 }

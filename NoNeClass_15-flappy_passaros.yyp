@@ -45,6 +45,10 @@
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_effect_glow-1.0.0","name":"io.gamemaker.gm_effect_glow-1.0.0","path":"io.gamemaker.gm_effect_glow-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_underwater-1.0.0","name":"io.gamemaker.gm_filter_underwater-1.0.0","path":"io.gamemaker.gm_filter_underwater-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","name":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","path":"io.gamemaker.gm_effect_gaussian_blur-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_effect_windblown_particles-1.0.0","name":"io.gamemaker.gm_effect_windblown_particles-1.0.0","path":"io.gamemaker.gm_effect_windblown_particles-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
@@ -56,6 +60,7 @@
   "resources":[
     {"id":{"name":"fnt_points","path":"fonts/fnt_points/fnt_points.yy",},},
     {"id":{"name":"guia","path":"notes/guia/guia.yy",},},
+    {"id":{"name":"obj_button_fx","path":"objects/obj_button_fx/obj_button_fx.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_control_level","path":"objects/obj_control_level/obj_control_level.yy",},},
     {"id":{"name":"obj_control_pickups","path":"objects/obj_control_pickups/obj_control_pickups.yy",},},

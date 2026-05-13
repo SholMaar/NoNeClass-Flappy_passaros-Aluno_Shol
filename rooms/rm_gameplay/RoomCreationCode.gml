@@ -9,3 +9,6 @@ global.on_transition = true;
 
 // musica
 audio_play_sound(snd_music, 1, 1);
+
+// veridicando efeitos
+switch_effetcs();

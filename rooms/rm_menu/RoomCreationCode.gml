@@ -6,3 +6,6 @@ global.on_transition = true;
 
 // parando quaquer som
 audio_stop_all();
+
+// veridicando efeitos
+switch_effetcs();
