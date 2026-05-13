@@ -1,3 +1,6 @@
+// arrumando variavel de morte do jogador
+global.player_death = false;
+
 // variavel da força da gravidade sobre a gravidade
 gravity_force = .2;
 // força de voo

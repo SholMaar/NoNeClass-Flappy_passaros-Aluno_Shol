@@ -66,6 +66,21 @@ Tela do jogo
 		08.8 - criar efeito de coleta;
 		08.9 - criar geração procedural;
 		
+	09 - tela inicial
+		09.1 - criar room;
+		09.2 - criar uma sequencia para a room;
+		
+	10 - criar botões
+		10.1 - importar sprite;
+		10.2 - configurar nine slice;
+		10.3 - criar objeto;
+		10.4 - desenhar texto do botão;
+		10.5 - criar animação para mouse enter, leave e click;
+		
+	11 - criar transição com sequence
+		11.1 - fade in;
+		11.2 - fade out;
+		
 Tela inicial
 
 

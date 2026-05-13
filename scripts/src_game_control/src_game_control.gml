@@ -8,6 +8,10 @@ global.points = 0;
 global.level = 1;
 // quantidade de coletaveis pegos
 global.pickups = 0;
+//variavel de room
+global.room = rm_gameplay;
+// variavel de controle de transição
+global.on_transition = false;
 
 // array de pontos para passar de vevel
 global.array_points_level = [200, 400, 600, 800, 1200, 1400, 1600, 1800, 2000];
@@ -17,9 +21,6 @@ function end_game()
 {
 	// indo pra cima 
 	vspeed = -7; // subindo
-	
-	// dizendo que morri
-	global.player_death = true;
 	
 	// fazendo animação de morte 
 	if (global.player_death)
@@ -41,4 +42,14 @@ function end_game()
 	
 	// iniciando alarme
 	alarm[0] = restart_game_time;
+}
+
+function switch_room()
+{	
+	room_goto(global.room);
+}
+
+function end_transition()
+{
+	global.on_transition = false;
 }
