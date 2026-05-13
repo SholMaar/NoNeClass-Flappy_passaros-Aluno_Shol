@@ -8,6 +8,8 @@ if (global.level < 9)
 	if (global.points >= _next_level)
 	{
 		global.level++;	
+		// tocando som de levelup
+		audio_play_sound(snd_levelup, 2, 0);
 	}
 	
 	// aumentando velocidade do background de acordo com meu level
